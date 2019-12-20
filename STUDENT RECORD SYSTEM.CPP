@@ -4,18 +4,18 @@ using namespace std;
 
 typedef struct node{
 
-    int roll;  // Declaring For Student ID
-    char name[40]; // Declaring For Student Name
-    char sec;      // Declaring For Student Section
-    char dep[10];  // Declaring For Student Department
-    long long cell; // Declaring For Student Phone Number
+    int roll;  // Declare For Student ID
+    char name[40]; // Declare For Student Name
+    char sec;      // Declare For Student Section
+    char dep[10];  // Declare For Student Department
+    long long cell; // Declare For Student Phone Number
     node *next;
 
 }node;
 
 node *head=NULL;
 
-void Insert() //Entering Student Data In This Function
+void Insert() //This Function Is For Student Data Insertion
 {
 
     node *curr=(node*)malloc(sizeof(node));
